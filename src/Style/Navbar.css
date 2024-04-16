@@ -1,0 +1,37 @@
+nav{
+    background-color: #404040;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center;
+}
+nav pre{
+    font-size: 2rem;
+}
+.logo{
+    font-size: 2.5rem;
+}
+.navitem{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    font-size: 2.1rem;
+}
+.navitem a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navitem a:hover{
+    color: rgb(255, 255, 0);
+}
+.navitem .UserIcon{
+    font-size: 3rem;
+}
+@media only screen and (width<=600px) {
+    nav pre{
+        display: none;
+    }
+}

@@ -1,0 +1,90 @@
+.todobox {
+  border: 2px solid;
+  width: 40%;
+  margin: auto;
+  margin-top: 3rem;
+  background-color: #ffffff30;
+  height: 80vh;
+  border-radius: 1rem;
+}
+.todobox input {
+  width: 93%;
+  margin: auto;
+  display: flex;
+  margin-top: 1rem;
+  height: 5vh;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+.todobox input::placeholder {
+  color: black;
+  text-align: center;
+}
+.todolist {
+  width: 93%;
+  margin: auto;
+  display: flex;
+  margin-top: 3rem;
+  overflow: scroll;
+  max-height: 68vh;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1.6rem;
+}
+.todolist::-webkit-scrollbar {
+  width: 0px;
+}
+.Etask {
+  display: flex;
+  justify-content: space-between;
+}
+.Etask h3 {
+  display: flex;
+  align-items: center;
+}
+.TaskBtn {
+  display: flex;
+  gap: 2rem;
+}
+.Otask{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Otask .pencil{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: rgb(255, 200, 0);
+}
+.Otask h4{
+    display: flex;
+    align-items: baseline;
+}
+.TaskBtn :nth-child(1) {
+  padding: 0.7rem;
+  border: 1px solid;
+  background-color: #2401f6;
+  color: white;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.TaskBtn :nth-child(2) {
+  padding: 0.7rem;
+  border: 1px solid;
+  background-color: #f60101;
+  color: white;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+@media only screen and (width<=1000px) {
+    .todobox{
+        width: 80%;
+    }
+}
+@media only screen and (width<=600px) {
+    .todobox{
+        width: 95%;
+    }
+}

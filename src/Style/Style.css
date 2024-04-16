@@ -1,0 +1,18 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+html {
+  font-size: 65%;
+}
+body {
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+@media only screen and (width<=600px) {
+    html{
+        font-size: 45%;
+    }
+}
